@@ -31,67 +31,59 @@
   </head>
   <body>
     <header class="container mx-auto">
-      <!-- <nav class="border border-red-300 border-2 h-12 mt-12">
-        <div>
-          <h1 class="text-4xl font-extrabold text-[#131318]">
-            Hockey<span class="text-[#FF4240]">’</span>s
-          </h1>
-        </div>
-        <div>
-
-        </div>
-      </nav> -->
-      <div class="navbar bg-base-100 mt-4 lg:mt-12">
-        <div class="navbar-start">
-          <div class="dropdown">
-            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
+      <nav>
+        <div class="navbar bg-base-100 mt-4 lg:mt-12">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
               >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M4 6h16M4 12h8m-8 6h16"
-                />
-              </svg>
+                <li><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Pages</a></li>
+                <li><a>Blog</a></li>
+                <li><a>Contact</a></li>
+              </ul>
             </div>
-            <ul
-              tabindex="0"
-              class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+            <a
+              class="lg:text-4xl text-2xl font-extrabold text-[#131318] cursor-pointer"
+              >Hockey<span class="text-[#FF4240]">’</span>s</a
             >
-              <li><a>Home</a></li>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li><a class="text-[#FF4240]">Home</a></li>
               <li><a>About</a></li>
               <li><a>Pages</a></li>
               <li><a>Blog</a></li>
               <li><a>Contact</a></li>
             </ul>
           </div>
-          <a
-            class="lg:text-4xl text-2xl font-extrabold text-[#131318] cursor-pointer"
-            >Hockey<span class="text-[#FF4240]">’</span>s</a
-          >
+          <div class="navbar-end flex gap-6">
+            <img class="hidden lg:block" src="./Images/search-ico.png" alt="" />
+            <a class="btn hover:bg-[#FF4240] bg-[#FF4240] text-white"
+              >Get Ticket</a
+            >
+          </div>
         </div>
-        <div class="navbar-center hidden lg:flex">
-          <ul class="menu menu-horizontal px-1">
-            <li><a class="text-[#FF4240]">Home</a></li>
-            <li><a>About</a></li>
-            <li><a>Pages</a></li>
-            <li><a>Blog</a></li>
-            <li><a>Contact</a></li>
-          </ul>
-        </div>
-        <div class="navbar-end flex gap-6">
-          <img class="hidden lg:block" src="./Images/search-ico.png" alt="" />
-          <a class="btn hover:bg-[#FF4240] bg-[#FF4240] text-white"
-            >Get Ticket</a
-          >
-        </div>
-      </div>
+      </nav>
     </header>
     <main class="container mx-auto"></main>
     <footer></footer>
