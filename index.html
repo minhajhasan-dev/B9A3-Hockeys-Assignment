@@ -661,7 +661,7 @@
         <!-- form design here  -->
         <!-- container div  -->
         <div class="flex lg:flex-row flex-col lg:gap-6 lg:mx-0 mx-5 gap-4">
-          <div class="p-6 lg:w-[29.625rem] w-full h-[47.75rem] border border-dashed mb-12 rounded-xl space-y-6 flex flex-col items-center justify-center">
+          <div class="p-6 lg:w-[29.625rem] w-full h-[47.75rem] border border-dashed lg:mb-12  rounded-xl space-y-6 flex flex-col items-center justify-center">
             <div class="lg:w-[20rem] w-full h-52 bg-[#BCED6D1A] p-8 flex flex-col space-y-5 justify-center  rounded-xl">
               <div><img src="./Images/telephone.png" alt=""></div>
               <div><p class="text-[#131318] text-base font-normal">Phone Number : </p>
@@ -680,7 +680,50 @@
 
           </div>
           <!-- form here  -->
-          <!-- I will do it tomorrow! right now, good night!! -->
+          <div class="w-full h-[47.75rem] mb-12 rounded">
+            <div class="grid lg:grid-cols-2 gap-6">
+              <!-- first input  -->
+            <label class="form-control w-full max-w-xs">
+              <div class="label">
+                <span class="label-text text-[#131318] font-bold text-xl">Your Name</span>
+              </div>
+              <input type="text" placeholder="Enter your full name" class="input input-bordered w-full max-w-xs bg-[#13131808] text-[#1313184D]" />
+            </label>
+            <!-- second input  -->
+            <label class="form-control w-full max-w-xs">
+              <div class="label">
+                <span class="label-text text-[#131318] font-bold text-xl">Your Email</span>
+              </div>
+              <input type="text" placeholder="Enter your email" class="input input-bordered w-full max-w-xs bg-[#13131808] text-[#1313184D]" />
+            </label>
+            <!-- third input  -->
+            <label class="form-control w-full max-w-xs">
+              <div class="label">
+                <span class="label-text text-[#131318] font-bold text-xl">Subject</span>
+              </div>
+              <input type="text" placeholder="Enter your subject" class="input input-bordered w-full max-w-xs bg-[#13131808] text-[#1313184D]" />
+            </label>
+            <!-- fourth input  -->
+            <label class="form-control w-full max-w-xs">
+              <div class="label">
+                <span class="label-text text-[#131318] font-bold text-xl">Phone Number</span>
+              </div>
+              <input type="text" placeholder="Enter your phone number" class="input input-bordered w-full max-w-xs bg-[#13131808] text-[#1313184D]" />
+            </label>
+            </div>
+            <!-- textarea and btn here -->
+            <div class="flex flex-col">
+              <label class="form-control w-full h-full">
+                <div class="label">
+                  <span class="label-text text-[#131318] font-bold text-xl">Message</span>
+                </div>
+                <textarea class="bg-[#13131808] text-[#1313184D] textarea textarea-lg textarea-bordered" placeholder="Write your message"></textarea>
+              </label>
+              <a class="btn w-full
+                 hover:bg-[#FF4240] bg-[#FF4240] text-white border-none  mt-4 mb-8"
+                >Send Message</a>
+            </div>
+          </div>
         </div>
       </section>
     <footer></footer>
